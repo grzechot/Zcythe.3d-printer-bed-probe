@@ -19,20 +19,20 @@ This work is licensed under a
 ## Parts:
 - printable: Flag6.stl and ZSuport6.stl. Recommended material - ABS. PETG might warp close to heat sources like extruder motor.
 - optosensor 5V - something like that: https://www.amazon.de/-/en/Endstop-OptoEndstop-Optical-Mendel-Printers/dp/B08S7FQCJ8
-- 7x3x3 bearing 2pcs
-- 5x5mm brass heat insert with collar
+- 3x7x3 bearing 2pcs. Soak before use in grease. I use hot paraffin bath.
+- 5x5mm brass heat insert with collar.
 - 3mm steel ball 
-- 0.5x5mm magnet 2pcs
+- 0.5x5mm magnet 2pcs. It can sourced from OCB cigarette paper package.
 ![Alt text](Assembly.png)
 
-I`ve came with that idea obout year 2013. Here you see prototype, working as precise ZEndStop, fitted in my old 3d printer:
+I`ve came with that idea about year 2013. Here you see prototype, working as precise ZEndStop, fitted in my old 3d printer:
 
 ![Alt text](/OldProbe.png)
 photo
 
-After 13 years it's still working fine with no issues. But mounted to the frame can't be used to do a mesh bed probe. So I had to redesign a little. The red one is printed in PETG, and it started to warp from extruder motor heat. ABS recommended. 
+After 13 years it's still working fine with no issues. But mounted to the frame can't be used to do mesh bed probing. So I had to redesign a little. The red one is printed in PETG, and it started to warp from extruder motor heat. ABS recommended. 
 ![Alt text](/Evolutions.png)
-The principle is simple. Because the accuracy of OptoEndStop is around 0.05 to 0.1mm. It's far not enough to work as ZEndStop. But if we use a leverage, we can enhance accuracy by leverage ratio. I use ratio 1:12, whitch is enough to measure with 0.003mm accuracy. If we extend the lenght of the scythe, the accuracy might be better. The practical limit is a height from a nozzle to a top of an extruder motor.
+The principle is simple. Because the accuracy of OptoEndStop is around 0.05 to 0.1mm. It's far not enough to work as ZEndStop. But if we use a leverage, we can enhance accuracy by leverage ratio. I use ratio about 1:12, whitch is enough to measure with 0.003mm accuracy. If we extend the lenght of the scythe, the accuracy might be better. The practical limit is a height from a nozzle to a top of an extruder motor.
 After developing several versions, I came to the point of "good enough, ready to publish". And here it is:
 
 ## Assembly instructions:
