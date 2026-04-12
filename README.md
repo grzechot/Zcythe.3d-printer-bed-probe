@@ -25,6 +25,7 @@ Parts:
 
 I`ve came with that idea obout year 2013. Here you see prototype, working as precise ZEndStop, fitted in my old 3d printer:
 
+(images/OldProbe.jpg)
 photo
 
 After 13 years it's still working fine with no issues. But mounted to the frame can't be used as a mesh bed probe. So I had to redesign a little.
