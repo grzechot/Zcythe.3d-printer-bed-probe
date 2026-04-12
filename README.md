@@ -22,6 +22,7 @@ Parts:
 - 5x5mm brass heat insert with collar
 - 3mm steel ball 
 - 0.5x5mm magnet 2pcs
+![Alt text](Assembly.png)
 
 I`ve came with that idea obout year 2013. Here you see prototype, working as precise ZEndStop, fitted in my old 3d printer:
 
@@ -34,26 +35,36 @@ After developing several versions, I came to the point of "good enough, ready to
 
 Assembly instructions:
 
-Press both bearings into the slot in the Zcythe. Leave no space between two of them.
+Press both bearings into the slot in the ZFlag. Leave no space between two of them.
 
 Heat press the ball, close holes between the ball and plastic part. Make sure tha ball will not fall out.
 
+![Alt text](ball.png)
+
 Heat press magnets to both parts, similar to brass insert. Mind the polarity!
 
-The socket of the EndStop must be desoldered, and soldered on the same side as OptoSensor. Remove supports, press fit OptoSensor. One M3x6mm bolt is enough to secure. When preparing cables, mind polarity!
+The socket of the EndStop must be desoldered, and soldered on the same side as OptoSensor.
+
+Prepare ZSupport by removing printed supports. Press fit OptoSensor. One M3x6mm bolt is enough to secure. When preparing cables, mind polarity!
 
 Paint with black or silver surfaces on the photo. Cut 0.5mm of the edge.
 
-Heat press the brass insert. The narrow part stays outside. Screw with M3x10mm bolt Zscythe to the Zsupport. Check bearings work. It should rotate without any resistance. Check spaces between painted surfaces and OptoSensor. It can not touch each other. Eventually using heat, adjust the mount of the brass insert. Test magnets. The arm should be magnetically atrracted from about half of its travel, and locked in closed state.
+![Alt text](PaintedSurfaces.png)
+
+Heat press the brass insert. The narrow part stays outside. Screw with M3x10mm bolt Zscythe to the Zsupport. Check bearings work. It should rotate without any resistance. Check spaces between painted surfaces and OptoSensor. It can not touch each other. Adjust the mount of the brass insert eventually.
+
+Test magnets. The arm should be magnetically atrracted from about half of its travel, and locked in closed state. Orient Zcythe vertically, push ZFlag gently, it shuld rotate to open state. Repeat many times :) Play with it as it's a fidget, because that assembly must withstand tens thounsands off cycles. 
 
 The most difficult part: find the place at your extruder, where a mount is possible. Create support for your extruder to the Zcythe. Soon I will post mounts for Voron and RatRig.
 
-Connect, configure (simple endstop, Z offset about 1mm, normally open), test. THe arm will close, led must be on, and controller must report open state of the OptoSensor. afer turning the arm less then 1mm on the upper side, the led must turn off.
+Connect, configure (simple endstop, Z offset about 1mm, normally open), test. Rotate ZFlag to open position. LED must be on, and controller must report open state of the OptoSensor. After turning Zflag less then 1mm on the upper side, the led must turn off.
 
-Position the closed probe (probe deretracted) about 1mm above nozzle tip. Rotate the arm to open state. THe ball should be about 1mm below the nozzle tip.
+Position the closed probe (probe deretracted) about 1mm above nozzle tip. Rotate ZFlag to open state. The ball should be about 1mm below the nozzle tip.
 
 Calibrate traditionally using thin paper.
 
 While probing, XY accelerations must be around 2000mm/s^2, because it may trigger the probe. But even with that limitation the probe can measure 6x6 grid in less than 3 minutes! Anyway, most aluminium plated beds change shape and height while heating, while stabilizing temperature, and even midprint. You can measure this with my probe. Have fun!
 
+Here is 21x21 grid of my imperfect bed. Configuration: M588 A5 S0.003. And day after day it looks similar, whitch means the probe is working great!.
 
+![Alt text](Zcythe441.png)
