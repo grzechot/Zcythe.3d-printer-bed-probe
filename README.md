@@ -9,14 +9,14 @@ This work is licensed under a
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-#Zcythe - 3d printer bed probe. 
+# Zcythe - 3d printer bed probe. 
 
 - Accuracy - 0.003mm
 - Cost ~2€
 - Weight - 12grams
 - Printable
 
-##Parts:
+## Parts:
 - optosensor 5V - somthing like that: https://www.amazon.de/-/en/Endstop-OptoEndstop-Optical-Mendel-Printers/dp/B08S7FQCJ8
 - 7x3x3 bearing 2pcs
 - 5x5mm brass heat insert with collar
@@ -33,7 +33,7 @@ After 13 years it's still working fine with no issues. But mounted to the frame 
 The principle is simple. Because the accuracy of OptoEndStop is around 0.05 to 0.1mm it's far not enough to work as ZEndStop. But if we use a leverage, we can enhance accuracy by leverage ratio. I use ratio 1:12, whitch is enough to measure with 0.003mm accuracy. If we extend the lenght of the scythe, the accuracy might be better. The practical limit is a height from a nozzle to a top of an extruder motor.
 After developing several versions, I came to the point of "good enough, ready to publish". And here it is:
 
-##Assembly instructions:
+## Assembly instructions:
 
 Press both bearings into the slot in the ZFlag. Leave no space between two of them.
 
@@ -57,7 +57,7 @@ Test magnets. The arm should be magnetically atrracted from about half of its tr
 
 The most difficult part: find the place at your extruder, where a mount is possible. Create support for your extruder to the Zcythe. Soon I will post mounts for Voron and RatRig.
 
-##Launch
+## Launch
 
 Connect, configure (simple endstop, Z offset about 1mm, normally open), test. Rotate ZFlag to open position. LED must be on, and controller must report open state of the OptoSensor. After turning ZFlag less then 1mm on the upper side, the led must turn off.
 
