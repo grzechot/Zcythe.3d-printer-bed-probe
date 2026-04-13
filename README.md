@@ -64,7 +64,7 @@ The most difficult part: find the place at your extruder, where a mount is possi
 
 ## Configure
 
-Connect, configure (simple endstop, Z offset about 1mm, normally open).
+Connect, configure (simple endstop, Z offset about 1mm, normally open). RRF gcode: M558 P5 C"zstop" H1.2:0.4 F150:90 T30000 A5 S0.003
 
 ## Test
 Rotate ZFlag to open position. LED must be on, and controller must report open state of the OptoSensor.
