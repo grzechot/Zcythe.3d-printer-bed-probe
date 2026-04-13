@@ -16,6 +16,10 @@ This work is licensed under a
 - Weight - 12grams
 - Printable
 
+Here you ca see how it works:
+
+https://www.youtube.com/watch?v=oTdeM-AWUHY
+
 ## Parts:
 - printable: Flag6.stl and ZSuport6.stl. Recommended material - ABS. PETG might warp close to heat sources like extruder motor.
 - optosensor 5V - something like that: https://www.amazon.de/-/en/Endstop-OptoEndstop-Optical-Mendel-Printers/dp/B08S7FQCJ8
