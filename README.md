@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=oTdeM-AWUHY
 - optosensor 5V - something like that: https://www.amazon.de/-/en/Endstop-OptoEndstop-Optical-Mendel-Printers/dp/B08S7FQCJ8
 - 3x7x3 bearing 2pcs. Soak before use in grease. I use hot paraffin bath.
 - 5x5mm brass heat insert with collar.
-- 3mm steel ball 
+- 3.2mm steel ball 
 - 0.5x5mm magnet 2pcs. It can sourced from OCB cigarette paper package.
 ![Alt text](/pic/Assembly.png)
 
@@ -37,7 +37,7 @@ After 13 years it's still working fine with no issues. But mounted to the frame 
 
 ![Alt text](/pic/Evolutions.png)
 
-The principle is simple. Because the accuracy of OptoEndStop is around 0.05 to 0.1mm. It's far not enough to work as ZEndStop. But if we use a leverage, we can enhance accuracy by leverage ratio. I use ratio about 1:12, whitch is enough to measure with 0.003mm accuracy. If we extend the lenght of the scythe, the accuracy might be better. The practical limit is a height from a nozzle to a top of an extruder motor.
+The principle is simple. Because the accuracy of OptoEndStop is around 0.05 to 0.1mm. It's far not enough to work as ZEndStop. But if we use a leverage, we can enhance accuracy by leverage ratio. I use ratio about 1:8.5 (10mm arm on the ball side, 85mm on the OptoSensor side), whitch is enough to measure with 0.003mm accuracy. If we extend the lenght of the scythe, the accuracy might be better. The practical limit is a height from a nozzle to a top of an extruder motor.
 After developing several versions, I came to the point of "good enough, ready to publish". And here it is:
 
 ## Assembly instructions:
