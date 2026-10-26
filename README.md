@@ -20,6 +20,15 @@ Here you ca see how it works:
 
 https://www.youtube.com/watch?v=oTdeM-AWUHY
 
+Zcythe in a complete system – the printer measures its own nozzle height before every print:
+[Zcythe Field in action](YOUTUBE_LINK_TODO).
+
+**The Zcythe family:**
+
+- **Zcythe** – bed probe on the toolhead *(this repository)*
+- **Zcythe Stone** – nozzle sensor beside the bed, same principle (opto endstop + lever) – [Zcythe.stone](https://github.com/grzechot/Zcythe.stone)
+- **Zcythe Field** – the system: RepRapFirmware macros that use both probes to set the Z offset automatically, with diagnostics of the printer – [Zcythe.field](https://github.com/grzechot/Zcythe.field)
+
 ## Parts:
 - printable: Flag6.stl and ZSuport6.stl. Recommended material - ABS. PETG might warp close to heat sources like extruder motor.
 - optosensor 5V - something like that: https://www.amazon.de/-/en/Endstop-OptoEndstop-Optical-Mendel-Printers/dp/B08S7FQCJ8
